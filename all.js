@@ -1,0 +1,3 @@
+function sup() {
+	alert('Clap!')
+}
