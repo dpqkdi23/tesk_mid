@@ -1,1 +1,78 @@
 /* main.html에 연결 */
+/* 폰트 임포트 */
+@font-face {
+    font-family: 'GowunBatang-Regular'; /* 고운바탕체 */
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GyeonggiTitleM'; /* 경기천년제목 */
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular'; /* 프리텐다드 */
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* margin:바깥 여백, padding:안쪽 여백 */
+html { margin: 0; padding: 0; } 
+body { margin: 0; padding: 0; text-align: center; }
+
+/* 제목 사이즈 */
+.main-title {
+    margin-top: 10px;
+	font-family: 'GowunBatang-Regular';
+	font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+/* 메뉴 정렬 */
+.menu-li {
+    display: inline-block;
+    margin: 10px;
+	background-color: aliceblue;
+	border-radius: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-family: 'GyeonggiTitleM';
+	font-size: 20px;
+}
+
+/* a링크 클릭 후 색변경 제거 */
+a:link, a:visited, a:hover, a:active { text-decoration: none; color: rgb(72, 72, 72); }
+
+/* 푸터 간격 설정 */
+footer {
+	margin-top: 20px;
+	padding: 30px;
+	font-family: 'Pretendard-Regular';
+}
+
+/* 버튼 효과 */
+.button {
+	background-image: linear-gradient(to right, yellow, orange, red);
+	color: white;
+	text-align: center;
+	border: 0px;
+	border-radius: 7px;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'GyeonggiTitleM';
+}
+
+/* section-1 효과 */
+.sec1-title {
+	font-family: 'Pretendard-Regular';
+	font-size: 17px;
+}
+
+.sec1-board {
+	font-family: 'Pretendard-Regular';
+}
