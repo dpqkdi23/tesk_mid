@@ -4,7 +4,7 @@ html { margin: 0; padding: 0; }
 body { margin: 0; padding: 0; text-align: center; }
 
 /* 제목 사이즈 */
-.main-title {
+.blog-title {
     margin-top: 10px;
     font-size: 50px;
     letter-spacing: 5px;
@@ -40,4 +40,26 @@ footer {
 	padding: 2px;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+/* 포스트 프리뷰 */
+.section-start {
+	text-align: center;
+}
+
+.post {
+	display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+/* 이미지 크기 조절 */
+img {				
+	position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    display: inline-block;
 }

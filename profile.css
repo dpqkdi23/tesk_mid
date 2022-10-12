@@ -4,7 +4,7 @@ html { margin: 0; padding: 0; }
 body { margin: 0; padding: 0; text-align: center; }
 
 /* 제목 사이즈 */
-.main-title {
+.profile-title {
     margin-top: 10px;
     font-size: 50px;
     letter-spacing: 5px;
@@ -40,4 +40,11 @@ footer {
 	padding: 2px;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+/* 표(profile) 정렬 및 폰트 사이즈 */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
 }

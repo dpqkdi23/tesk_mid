@@ -4,7 +4,7 @@ html { margin: 0; padding: 0; }
 body { margin: 0; padding: 0; text-align: center; }
 
 /* 제목 사이즈 */
-.main-title {
+.gusetbook-title {
     margin-top: 10px;
     font-size: 50px;
     letter-spacing: 5px;
@@ -40,4 +40,20 @@ footer {
 	padding: 2px;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+/* guestbook 효과 */
+.gusetbook .text {
+    max-width: 300px;
+    border: 1px solid mediumslateblue;
+    border-radius: 2px;
+}
+
+.gusetbook .send {
+    border: 0px;
+    border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: darkslateblue;
+    color: whitesmoke;
 }
