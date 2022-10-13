@@ -3,26 +3,33 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>write page</title>
+		<link rel="stylesheet" href="b_write.css"> <!-- css 연결 -->
 	</head>
 	
 	<body>
-	    <h1>
-    	    <a href="blog.html">Blog</a>
-    	</h1>
-    	<form method="get" action="blog.html">
+        <header>
+            <div class="bwrite-title">New Post</div> <!-- 사이트 제목 -->
+
+            <nav class="menu"> <!-- 메뉴 -->
+                <div class="menu-li"><a href="profile.html">Profile</a></div> <!-- profile로 이동 -->
+                <div class="menu-li"><a href="blog.html">Blog</a></div> <!-- blog로 이동 -->
+                <div class="menu-li"><a href="main.html">Main</a></div> <!-- main으로 이동 -->
+                <div class="menu-li"><a href="review.html">Review</a></div> <!-- review로 이동 -->
+                <div class="menu-li"><a href="guestbook.html">Guestbook</a></div> <!-- guestbook로 이동 -->
+            </nav>
+        </header>
+
     	<table>
         	<tr>
-        	    <td>제목</td>
-        	    <td><input type="text"></td>
+        	    <td><input class="title" type="text" placeholder="title"></td>
         	</tr>
         	<tr>
-        	    <td>내용</td>
         	    <td>
-        	        <textarea name="content"></textarea>
+        	        <textarea class="content" name="content" placeholder="content"></textarea>
         	    </td>
         	</tr>
     	</table>
-    	<input type="submit" value="글쓰기">
+    	<input type="submit" value="upload">
     	</form>
 </body>
 
