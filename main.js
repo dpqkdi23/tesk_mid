@@ -25,4 +25,8 @@ function addToList(text) {
 	newListItem.innerHTML = text; // li 사이에 입력 문자 넣기
 
 	list.appendChild(newListItem); // 리스트에 추가
+
+	list.addEventListener("click", function() {
+		list.style.textDecoration = "line-through";
+	})
 }

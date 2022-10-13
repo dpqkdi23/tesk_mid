@@ -67,8 +67,17 @@ footer {
 	font-family: 'GyeonggiTitleM';
 }
 
+/* section 효과 */
+.sec-title {
+	padding-top: 20px;
+	font-family: 'GyeonggiTitleM';
+	font-weight: bolder;
+	font-size: 25px;
+}
+
 /* 표(profile) 정렬 및 폰트 사이즈 */
 table {
+	padding-top: 5px;
     margin-left: auto;
     margin-right: auto;
 	font-family: 'Pretendard-Regular';

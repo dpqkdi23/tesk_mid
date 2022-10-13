@@ -88,6 +88,11 @@ footer {
 }
 
 .sec2-board {
+	background-color: azure;
 	margin-bottom: 10px;
+	font-family: 'Pretendard-Regular';
+}
+
+.sec2-board .input-board {
 	font-family: 'Pretendard-Regular';
 }
