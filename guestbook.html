@@ -21,10 +21,16 @@
     </body>
 
     <section>
-        <div class="guestbook">
-            <div class="title"> Have a good day!</div>
-            <input class="text" type="text" id="gb">
-            <button class="send" id="re">Send</button>
+        <div class="book">
+            <div class="title"> Have a good day! </div>
+            <input type="text" id="gb" placeholder="Thank you!">
+            <button class="send" id="add-re" onclick="re()">Send</button>
+        </div>
+        <div class="book-content">
+            <ui id="book">
+                <li class="book-list">Amazing!</li>
+                <li class="book-list">I looove it!</li>
+            </ui>
         </div>
     </section>
 
@@ -35,5 +41,5 @@
         </div>
     </footer>
 
-<script type="text/javascript" src="all.js"></script> <!-- js 연결 -->
+<script type="text/javascript" src="gusetbook.js"></script> <!-- js 연결 -->
 </html>
