@@ -69,10 +69,25 @@ footer {
 
 /* section-1 효과 */
 .sec1-title {
+	margin-top: 15px;
 	font-family: 'Pretendard-Regular';
 	font-size: 17px;
 }
 
 .sec1-board {
+	margin-bottom: 15px;
+	font-family: 'Pretendard-Regular';
+}
+
+/* section-2 효과 */
+.sec2-title {
+	margin-top: 20px;
+	margin-bottom: 3px;
+	font-family: 'Pretendard-Regular';
+	font-size: 17px;
+}
+
+.sec2-board {
+	margin-bottom: 10px;
 	font-family: 'Pretendard-Regular';
 }
