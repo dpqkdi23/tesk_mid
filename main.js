@@ -4,9 +4,9 @@ function sup() {
 }
 
 // to-do list
-const addButton = document.querySelector('#add-re');
+const sendButton = document.querySelector('#send-button');
 
-addButton.addEventListener('click', () => {
+sendButton.addEventListener('click', () => {
   const input = document.querySelector('#input');
   const text = input.value.trim();
 
