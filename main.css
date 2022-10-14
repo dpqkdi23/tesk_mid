@@ -80,9 +80,9 @@ footer {
 }
 
 /* section-2 투두 리스트 효과 */
-.sec2-title {
+/* .sec2-title {
     font-family: 'Pretendard-Regular';
-}
+} */
 
 .todolist .text {
     max-width: 300px;
@@ -103,7 +103,7 @@ footer {
     font-family: 'GyeonggiTitleM';
 }
 
-.sec2-content {
+.todolist .list-container {
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;

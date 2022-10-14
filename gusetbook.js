@@ -3,23 +3,23 @@ function sup() {
 	alert('Clap!')
 }
 
-const addRe = document.querySelector('#add-re');
+const sendButton = document.querySelector('#send-button');
 
-addRe.addEventListener('click', () => {
-  const GB = document.querySelector('#gb');
+sendButton.addEventListener('click', () => {
+  const input = document.querySelector('#input');
   const text = input.value.trim();
 
   if (text !== '') {
-    addToRep(text);
+    addToList(text);
     input.value = '';
     input.focus();
   }
 });
 
-function addToRep(text) {
-  const book = document.querySelector('#book');
+function addToList(text) {
+  const list = document.querySelector('#list');
 
-  const newBookItem = document.createElement('li');
+  const newListItem = document.createElement('li');
   newListItem.classList.add('book-list'); 
 
   newListItem.innerHTML = text;
