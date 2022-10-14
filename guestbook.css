@@ -80,6 +80,7 @@ footer {
     max-width: 300px;
     border: 1px solid mediumslateblue;
     border-radius: 2px;
+    font-family: 'Pretendard-Regular';
 }
 
 .book .send {
