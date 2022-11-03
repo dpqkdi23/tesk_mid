@@ -68,22 +68,38 @@ footer {
 }
 
 /* guestbook 효과 */
-.guestbook .title {
+.book {
+    margin-top: 25px;
+    margin-bottom: 10px;    
+}
+.book .title {
     font-family: 'Pretendard-Regular';
 }
 
-.guestbook .text {
+.book .text {
     max-width: 300px;
     border: 1px solid mediumslateblue;
     border-radius: 2px;
 }
 
-.guestbook .send {
+.book .send {
     border: 0px;
     border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
     background-color: darkslateblue;
     color: whitesmoke;
     font-family: 'GyeonggiTitleM';
+}
+
+.book-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    background-color: rgba(53, 33, 150, 0.2);
+    font-family: 'Pretendard-Regular';
 }
